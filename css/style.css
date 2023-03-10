@@ -1,3 +1,5 @@
+/* Variables */
+
 :root {
   --SLATE: #434455;
   --IRIS: #4d5ae5;
@@ -8,6 +10,8 @@
   --body-background: #e5e5e5;
   --brand-color: #2e2f42;
 }
+
+/* Global */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -170,3 +174,5 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
+/* Flex */
