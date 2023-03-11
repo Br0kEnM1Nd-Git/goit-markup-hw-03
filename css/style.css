@@ -30,6 +30,12 @@ h6 {
   margin-top: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* Headers */
 
 .h1 {
@@ -55,10 +61,11 @@ h6 {
 /* Sections */
 
 .header {
+  border-bottom: 1px solid var(--CORNFLOWER);
   background-color: var(--WHITE);
 }
 
-.hero-image {
+.hero-section {
   padding: 188px 0;
   background-color: var(--brand-color);
 }
@@ -80,6 +87,7 @@ h6 {
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /* Logo */
 
