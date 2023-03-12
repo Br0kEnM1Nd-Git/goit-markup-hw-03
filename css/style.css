@@ -17,7 +17,7 @@ body {
   color: var(--SLATE);
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--body-background);
+  background-color: var(--WHITE);
 }
 
 p,
@@ -92,6 +92,7 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 /* Logo */
 
 .logo {
@@ -192,6 +193,7 @@ ul {
 
 .cards-li {
   border: 1px solid var(--CORNFLOWER);
+  padding: 0 0 32px 0;
 }
 
 .card-link {
@@ -199,12 +201,18 @@ ul {
 }
 
 .our-team-li {
-  display: inline-block; /* remove/test */
-  padding: 0 0 32px 0;
+  width: 264px;
+  height: 380px;
   background-color: var(--WHITE);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+
+/* Other */
+
+.image {
+  margin-bottom: 32px;
 }
 
 /* Flex */
