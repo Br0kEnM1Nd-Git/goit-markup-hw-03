@@ -12,6 +12,7 @@
 }
 
 /* Global */
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--SLATE);
@@ -43,12 +44,15 @@ ul {
   color: var(--WHITE);
   font-size: 56px;
   line-height: 1.07;
+  width: 496px;
 }
 
 .h2 {
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.15;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .h3 {
@@ -80,6 +84,7 @@ ul {
 .footer {
   background-color: var(--brand-color);
   color: var(--WHITE);
+  padding: 100px 0;
 }
 
 .section {
@@ -99,6 +104,7 @@ ul {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-size: 18px;
+  line-height: 1.17;
 }
 
 .logo-item {
@@ -149,6 +155,9 @@ ul {
   outline: 0;
   color: var(--WHITE);
   font-family: inherit;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
 }
 
 .button:hover,
@@ -159,11 +168,13 @@ ul {
 .pbutton {
   background: var(--CLOUD);
   border: 1px solid var(--CORNFLOWER);
-  border-radius: 4px;
   cursor: pointer;
   color: var(--IRIS);
   background-color: var(--CLOUD);
   font-family: inherit;
+  border-radius: 4px;
+  height: 48px;
+  padding: 12px 24px;
 }
 
 .pbutton:hover,
@@ -191,9 +202,8 @@ ul {
   list-style-type: none;
 }
 
-.cards-li {
+.card-li {
   border: 1px solid var(--CORNFLOWER);
-  padding: 0 0 32px 0;
 }
 
 .card-link {
@@ -207,6 +217,7 @@ ul {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 32px;
 }
 
 /* Other */
@@ -216,3 +227,94 @@ ul {
 }
 
 /* Flex */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 76px;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.address-ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.h-link {
+  padding: 24px 0;
+}
+
+.h-logo {
+  padding: 24px 0;
+}
+
+.f-text {
+  margin-top: 16px;
+  margin-bottom: 0;
+  width: 264px;
+}
+
+.our-advantages {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.wawd {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-link-text {
+  padding-left: 16px;
+  padding-bottom: 32px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.linksa {
+  width: 340px;
+}
+
+.p-card {
+  width: 360px;
+}
