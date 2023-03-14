@@ -75,7 +75,16 @@ ul {
 }
 
 .hidden {
-  display: none;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* Section/Containers */
@@ -154,7 +163,6 @@ ul {
   color: var(--WHITE);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   border-color: var(--OCEAN);
 }
 
@@ -163,10 +171,6 @@ ul {
 .image {
   display: block;
   max-width: 100%;
-}
-
-.card-li {
-  border: 1px solid var(--CORNFLOWER);
 }
 
 .cards {
@@ -287,6 +291,10 @@ ul {
 
 /* Our Advantages */
 
+.oa-section {
+  padding-bottom: 0;
+}
+
 .our-advantages > li {
   max-width: calc(100% - 72px / 4);
 }
@@ -312,21 +320,15 @@ ul {
 }
 
 .our-team-li {
-  width: 264px;
-  height: 380px;
+  max-width: calc(100% - 72px / 4);
   background-color: var(--WHITE);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 32px;
-}
-
-.our-team-li > li {
-  max-width: calc(100% - 72px / 4);
 }
 
 .card-text {
-  padding-top: 32px;
+  padding: 32px 16px;
   text-align: center;
 }
 /* -------------------- */
@@ -352,6 +354,12 @@ ul {
   border-bottom: 1px solid var(--CORNFLOWER);
   max-width: calc(100% - 48px / 3);
 }
+
+.p-card:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .card-link {
   display: block;
   text-decoration: none;
