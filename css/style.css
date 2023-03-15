@@ -185,6 +185,7 @@ ul {
 /* Header */
 
 .header {
+  margin-bottom: -1px;
   border-bottom: 1px solid var(--CORNFLOWER);
   background-color: var(--WHITE);
 }
@@ -351,7 +352,8 @@ ul {
 /* Cards */
 
 .p-card {
-  border-bottom: 1px solid var(--CORNFLOWER);
+  margin: -1px;
+  border: 1px solid var(--CORNFLOWER);
   max-width: calc(100% - 48px / 3);
 }
 
